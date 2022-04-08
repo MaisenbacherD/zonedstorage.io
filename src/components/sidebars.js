@@ -95,14 +95,29 @@ const sidebars = {
       ],
     },
     {
-      type: 'doc',
-      label: 'Linux Distributions',
-      id: 'distributions/linux'
+      type: 'category',
+      label: 'Benchmarking Zoned Block Device',
+      collapsed: true,
+      items: [
+          'benchmarking/index',
+          {
+              type: 'category',
+              label: 'fio',
+              collapsed: true,
+              items: [
+                  'benchmarking/fio/overview',
+                  'benchmarking/fio/zac-fio',
+                  'benchmarking/fio/zns-fio'
+              ]
+          },
+          'benchmarking/rocksdb',
+          'benchmarking/myrocks'
+      ]
     },
     {
       type: 'doc',
-      label: 'Benchmarking Zoned Block Device',
-      id: 'benchmarking/benchmark'
+      label: 'Linux Distributions',
+      id: 'distributions/linux'
     },
     {
       type: 'doc',
