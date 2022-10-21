@@ -68,6 +68,14 @@ const sidebars = {
       collapsed: true,
       items: [
         'applications/index',
+          {
+              type: 'category',
+              label: 'kubernetes',
+              collapsed: true,
+              items: [
+                  'applications/kubernetes/overview',
+              ]
+          },
         'applications/percona-server',
         'applications/zenfs'
       ],
