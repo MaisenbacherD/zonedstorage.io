@@ -117,9 +117,8 @@ const config = {
 	    to: '/docs/community/support',
 	  },
           {
-            label: 'GitHub',
-            position: 'right',
             href: 'https://github.com/westerndigitalcorporation/zonedstorage.io',
+            position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
           },
